@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #ff6263;
+}
+.formcontainer {
+  background: var(--primary-color);
+  margin-top: 5em;
+  text-align: center;
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+.formcontainer .forminput {
+  margin-bottom: 1em;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.shorturlform {
+  width: 90%;
+  height: 20px;
+}
+.clipboardImages {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
