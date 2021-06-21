@@ -18,11 +18,10 @@ const UrlForm = () => {
   const [values, setValues] = useState({
     originalUrl: "",
     error: "",
-    success: false,
   });
   const [copyText, setCopyText] = useState("");
   const textAreaRef = useRef(null);
-  const { originalUrl, error, success } = values;
+  const { originalUrl, error } = values;
 
   //copy to clipboard
   const copyToClipboard = (e) => {
@@ -45,13 +44,12 @@ const UrlForm = () => {
     shortlink({ originalUrl })
       .then((data) => {
         if (data.error) {
-          setValues({ ...values, error: data.error, success: false });
+          setValues({ ...values, error: data.error });
           console.log(data.error);
         } else {
           setValues({
             originalUrl: "",
             error: "",
-            success: true,
           });
           setShortUrl(data);
         }
