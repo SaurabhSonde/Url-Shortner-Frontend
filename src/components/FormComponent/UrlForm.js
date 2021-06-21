@@ -108,7 +108,7 @@ const UrlForm = () => {
               ></i>
             ) : (
               <i
-                class="bi bi-clipboard"
+                className="bi bi-clipboard"
                 style={{ fontSize: "1.8em" }}
                 onClick={copyToClipboard}
               ></i>
