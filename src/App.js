@@ -5,7 +5,6 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import UrlForm from "./components/FormComponent/UrlForm";
 import Footer from "./components/Footer/Footer";
 import FeaturesSection from "./components/FeaturesSection/FeaturesSection";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
