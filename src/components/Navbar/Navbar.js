@@ -13,14 +13,10 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="primary-nav mr-auto">
-          <a href="google.com">Home</a>
-          <a href="/">Features</a>
-        </Nav>
-        <Nav className="contact">
-          <a href="google.com">Contact</a>
+          <a href="/">Home</a>
         </Nav>
         <Nav className="secondary-nav">
-          <a href="google.com">Go Premium</a>
+          <a href="/">Go Premium</a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
