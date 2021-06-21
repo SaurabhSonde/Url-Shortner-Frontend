@@ -1,4 +1,4 @@
-import { API } from "../../../backend";
+const API = process.env.REACT_APP_BACKEND;
 
 export const shortlink = (originalUrl) => {
   return fetch(`${API}/shorten`, {
